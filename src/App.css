@@ -1,0 +1,65 @@
+h1 {
+    color:#fff;
+    max-width: 540px;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    margin-bottom: 0px;
+}
+
+P {
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    padding:50px;
+}
+
+.main img {
+    width:100%;
+    max-width: 190px;
+    max-height: 190px;
+    margin-bottom: 25px;
+}
+
+.main img:hover {
+    opacity: 95%;
+    cursor: pointer;
+}
+.convidados {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Social button {
+    width:100%;
+    max-width: 240px;
+    padding: 10px 20px 10px 20px;
+    background-color: #DDE341;
+    border: solid 0px;
+    color: #2F2F2F;
+    font-family: 'Roboto';
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.Social {
+    margin-top: 20px;
+}
+
+.Social button:hover {
+    opacity: 90%;
+    cursor: pointer;
+    background-attachment:#DDE341;
+    border: solid 0px;
+}
+
+.Social button:focus {
+    border: solid 0px;
+}

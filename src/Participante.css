@@ -1,0 +1,35 @@
+.Participante {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 300px;
+    padding-right: 10px;
+}
+
+.Participante img {
+    max-width: 100px;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    transition: 0.12s;
+}
+
+.Participante img:hover {
+    opacity: 90%;
+    cursor: pointer;    
+}
+
+.Participante h3 {
+    color: #fff;
+    margin:0;
+}
+
+.Participante p {
+    color: #ccc;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
