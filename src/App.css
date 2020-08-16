@@ -28,7 +28,6 @@ P {
 }
 
 .main img:hover {
-    opacity: 95%;
     cursor: pointer;
 }
 .convidados {
@@ -46,7 +45,6 @@ P {
     color: #2F2F2F;
     font-family: 'Roboto';
     font-weight: 600;
-    transition: 0.5s;
 }
 
 .Social {
@@ -54,7 +52,6 @@ P {
 }
 
 .Social button:hover {
-    opacity: 90%;
     cursor: pointer;
     background-attachment:#DDE341;
     border: solid 0px;

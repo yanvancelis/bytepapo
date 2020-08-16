@@ -12,11 +12,9 @@
     width: auto;
     height: auto;
     margin-right: 20px;
-    transition: 0.12s;
 }
 
 .Participante img:hover {
-    opacity: 90%;
     cursor: pointer;    
 }
 
